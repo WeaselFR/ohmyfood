@@ -1,0 +1,12 @@
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 50px;
+    background-color: #eaeaea;
+}
+  
+.location i {
+    padding-right: 20px;
+}

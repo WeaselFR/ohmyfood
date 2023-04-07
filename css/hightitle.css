@@ -1,0 +1,36 @@
+.hightitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f6f6f6;
+    height: 290px;
+}
+
+.hightitle h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.hightitle p {
+    font-weight: 300;
+    font-size: 1.6em;
+}
+  
+
+@media (max-width: 768px) {
+    
+    .hightitle h1 {
+      width: 220px;
+      font-size: 1.5em;
+}
+}
+
+@media (max-width: 768px) {
+    
+    .hightitle p {
+      width: 280px;
+      font-size: 1em;
+}
+}
