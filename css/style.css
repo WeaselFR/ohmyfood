@@ -50,17 +50,3 @@ header a {
   left: 20px;
   color: #000;
 }
-
-.fa-heart {
-  font-size: 1.3em;
-}
-
-.fa-heart:hover {
-  animation: bgcolor 0.5s;
-  font-weight: 900;
-  background: -webkit-linear-gradient(13deg, #ff79da 0%, #ba62db 66%);
-  color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  cursor: pointer;
-}
