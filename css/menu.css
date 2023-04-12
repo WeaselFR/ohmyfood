@@ -156,6 +156,18 @@
     width: 100%;
     max-width: 16em;
 }
+
+.btn {
+    background: #ff79da;
+    background: linear-gradient(180deg, #ff79da 0%, #ba62db 100%);
+    box-shadow: 1px 11px 14px 0px rgb(130 130 130 / 38%);
+    padding: 20px;
+    color: #FFF;
+    font-family: "Roboto";
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 500ms;
+}
   
 .entree {
     margin-bottom: 2.25em;

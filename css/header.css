@@ -11,3 +11,9 @@ header {
     position: relative;
     box-shadow: 0 5px 2px -1px #5651511f;
 }
+    
+.fa-arrow-left:before {
+        position: absolute;
+        left: 20px;
+        color: #000;
+}
