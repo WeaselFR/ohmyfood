@@ -1,11 +1,11 @@
-.Listingslot {
+.listingslot {
     display: flex;
     justify-content: space-evenly;
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.Listingslot-cards {
+.listingslot-cards {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -17,12 +17,12 @@
     font-weight: 700;
 }
 
-.Listingslot-cards i {
+.listingslot-cards i {
     padding-right: 30px;
     color: #7e7e7e;
 }
 
-.Listingslot-cards .number {
+.listingslot-cards .number {
     position: absolute;
     left: 0;
     transform: translate(-15px);
@@ -35,17 +35,17 @@
     border-radius: 50%;
 }
 
-.Listingslot-cards:hover {
+.listingslot-cards:hover {
     background-color: #f5edff;
 }
 
-.Listingslot-cards:hover i {
+.listingslot-cards:hover i {
     color: #9356DC;
 }
 
 @media (max-width: 992px) {
 
-.Listingslot {
+.listingslot {
       flex-direction: column;
       margin-bottom: 2em;
 }
