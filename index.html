@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="./public/css/style.css"/>
+        <link rel="stylesheet" href="./css/style.css"/>
         <link rel="stylesheet" href="./css/footer.css"/>
         <link rel="stylesheet" href="./css/location.css"/>
         <link rel="stylesheet" href="./css/restaurant.css"/>
@@ -12,11 +12,26 @@
         <link rel="stylesheet" href="./css/hightitle.css"/>
         <link rel="stylesheet" href="./css/carteliste.css"/>
         <link rel="stylesheet" href="./css/menu.css"/>
+        <link rel="stylesheet" href="./sass/style.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://kit.fontawesome.com/8b1eebc2d9.js" crossorigin="anonymous"></script>
         <title>Oh my food</title>
+        <script>
+            $(document).ready(function () {
+                $(".loaderout").hide(6000);
+        });
+        </script>
     </head>
     
     <body>
+
+        <div class="loaderout">
+            <div class="loader-container">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+        </div>
 
         <main>
             <header class="container">
