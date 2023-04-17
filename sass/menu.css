@@ -1,0 +1,149 @@
+.menu {
+  margin-bottom: -60px;
+}
+.menu img {
+  width: 100%;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: flex;
+  margin: 0 auto;
+}
+.menu-container {
+  background-color: #f6f6f6;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  transform: translate(0px, -60px);
+}
+.menu-container h1 {
+  font-family: "Shrikhand", cursive;
+}
+.menu-resto {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-resto i {
+  font-size: 1.6em;
+  font-weight: 400;
+}
+.menu-categorie h2 {
+  text-transform: uppercase;
+  font-weight: 0;
+  font-size: 1.2em;
+}
+.menu-categorie h2::after {
+  content: "";
+  width: 50px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  background-color: #99E2D0;
+}
+.menu-card {
+  animation-fill-mode: both;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px 20px 0 10px;
+  margin-bottom: 15px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  width: 100%;
+  box-shadow: -1px 6px 10px 2px rgba(166, 166, 166, 0.34);
+}
+.menu-card_validate {
+  position: absolute;
+  text-align: center;
+  right: -100px;
+  top: 0;
+  width: 100px;
+  height: 95px;
+  background-color: #99E2D0;
+  transition: 1s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.7s ease-in-out;
+}
+.menu-card_validate i {
+  color: #fff;
+  font-size: 1.5em;
+}
+.menu-card:hover {
+  cursor: pointer;
+}
+.menu-card:hover .menu-card_validate {
+  right: 0px;
+  transition: 0.7s ease-in-out;
+  z-index: 2;
+}
+.menu-card:hover .menu-card_validate .i {
+  animation: rotate 0.4s linear;
+  animation-delay: 0.3S;
+}
+.menu-card_content {
+  width: 100%;
+  transition: 0.8s ease-in-out;
+}
+.menu-card_content:hover {
+  width: calc(100% - 100px);
+  transition: 0.7s ease-in-out;
+}
+.menu-card_title h3 {
+  font-family: "Roboto";
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu-card_title p {
+  margin: 0;
+  word-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu-card_text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu-card_text p:nth-child(1) {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.menu-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.menu-btn .btn {
+  display: block;
+  width: 100%;
+  max-width: 16em;
+}
+
+.entree {
+  margin-bottom: 2.25em;
+  animation: fadein 1s linear;
+  animation-delay: 0.5s;
+  animation-fill-mode: both;
+}
+
+.plats {
+  margin-bottom: 2.25em;
+  animation: fadein 1s linear;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+}
+
+.dessert {
+  animation: fadein 1s linear;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+}/*# sourceMappingURL=menu.css.map */
