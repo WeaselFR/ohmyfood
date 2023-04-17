@@ -135,9 +135,9 @@ header a {
 }
 
 .loader {
-  border: 10px solid #f3f3f3;
+  border: 10px solid #9356DC;
   border-radius: 50%;
-  border-top: 10px solid #9356DC;
+  border-top: 10px solid #FF79DA;
   width: 120px;
   height: 120px;
   animation: rotate 1s linear infinite;
@@ -149,7 +149,7 @@ header a {
   justify-content: center;
   align-items: center;
   animation: fadeout 0.2s linear;
-  animation-delay: 2.5s;
+  animation-delay: 2s;
   animation-fill-mode: both;
   width: 99vw;
   height: 100vh;
