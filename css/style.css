@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Shrikhand&display=swap");
 
 
-/********** PAGE APPARAIT PUIS DISPARIS ****************/
+/********** PAGE APPARAIT DOUCEMENT PUIS DISPARAIS DOUCEMENT ****************/
 
 
 @keyframes fadein {
@@ -451,6 +451,7 @@
   font-weight: 900;
   background: -webkit-linear-gradient(13deg, #ff79da 0%, #ba62db 66%);
   color: transparent;
+  background-clip: inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
