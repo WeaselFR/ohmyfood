@@ -85,6 +85,21 @@
 /********** BOUTTON PASSE DEGRADER AVEC SURVOLE ET CLICK MOBILE FIRST ****************/
 
 
+.restaurant-content_heart {
+  font-size: 1.3em;
+  animation: bgcolor 0.5s;
+  font-weight: 900;
+  background:-webkit-linear-gradient(13deg, rgba(255,121,218,1) 0%, rgba(186,98,219,1) 66%);
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  cursor: pointer;
+}
+
+
+/********** BOUTTON PASSE DEGRADER AVEC SURVOLE ET CLICK MOBILE FIRST ****************/
+
+
 .btn {
   background: #ff79da;
   background: linear-gradient(180deg, #ff79da 0%, #ba62db 100%);
