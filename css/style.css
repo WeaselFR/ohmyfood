@@ -446,6 +446,7 @@
 .fa-heart {
   font-size: 1.3em;
 }
+
 .fa-heart:hover {
   animation: bgcolor 0.5s;
   font-weight: 900;
