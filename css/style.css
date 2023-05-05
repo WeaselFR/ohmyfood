@@ -3,7 +3,7 @@
 
 
 /********** PAGE APPARAIT DOUCEMENT PUIS DISPARAIS DOUCEMENT ****************/
-
+/********** + fade du entrée plat dessert  ****************/
 
 @keyframes fadein {
   from {
@@ -25,7 +25,7 @@
 }
 
 
-/********** ICONE QUI VA TOURNER  ****************/
+/********** ICONE QUI VA TOURNER -> Check validation et loading page ****************/
 
 
 @keyframes rotate {
@@ -82,7 +82,7 @@
 }
 
 
-/********** BOUTTON PASSE DEGRADER AVEC SURVOLE  ****************/
+/********** BOUTTON PASSE DEGRADER AVEC SURVOLE ET CLICK MOBILE FIRST ****************/
 
 
 .btn {
@@ -440,7 +440,7 @@
 }
 
 
-/********** DEGRADER DU COEUR NE PAS TOUCHER ****************/
+/********** CSS DU COEUR AVEC REF KEYFRAME DU DEGRADER NE PAS TOUCHER ****************/
 
 
 .fa-heart {
@@ -458,7 +458,7 @@
 }
 
 
-/********** CHARGEUR DE PAGE - NE PAS TOUCHER ****************/
+/********** ANIMATION CHARGEMENT DE PAGE - NE PAS TOUCHER ****************/
 
 
 .loader {
